@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<!--基于蛋蛋VIP视频全网解析简化，仅供个人使用-->
+<html style='height:100%;'>
+	<head>
+		<meta charset="utf-8" />
+		<title>Videojs，仅供个人使用</title>
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta name=viewport content="width=device-width,anicital-scale=1">
+		<link rel="stylesheet" href="https://www.eggvod.cn/css/bootstrap.css" />
+		<script type="text/javascript" src="https://www.eggvod.cn/js/jquery.js"></script>
+		<script type="text/javascript" src="https://www.eggvod.cn/js/base64.min.js"></script>
+		<script type="text/javascript" src="https://www.eggvod.cn/js/bootstrap.js"></script>
+		<link rel="stylesheet" href="https://www.eggvod.cn/css/style.css" />
+		<style>
+			.alertBox{
+
+				position: absolute;right: 0;left: 0;
+				z-index:10000;
+				opacity:1;
+				width:70%;
+				margin:0 auto;0px;
+				border: 1px solid rgba(0,0,0,.2);
+				border-radius: 6px;
+				background-color:#FFF;
+				background-clip: padding-box;
+				box-shadow: 0 5px 10px rgba(0,0,0,1);
+			
+			}
+
+		.alertBoxBut{
+
+			position:absolute;
+			top:0;
+			right:5px;
+			font-size:30px;
+			line-height: 1;
+			color: #000;
+			text-shadow: 0 1px 0 #fff;
+			cursor: pointer;
+			border:0;
+			background:0 0;
+		
+		}
+		</style>
+	</head>
+	<body style="height: 100%;background-color:#333;">
+		<div class='alertBox' id='alertBox'>
+			<div style='padding-top:8px'></div>
+			<button type='button' class='alertBoxBut' onclick="javascript:location.href='https://v.qq.com/x/cover/m441e3rjq9kwpsc/i0033vek8y7.html'">×</button>
+			<div style='padding:0px 20px 5px;'>
+				<h4 style='font-size:14px;'></h4>
+			</div>
+			<!--视频iframe区域-->
+			<iframe id="palybox" src="https://www.1717yun.com/jx/ty.php?url=https://v.qq.com/x/cover/m441e3rjq9kwpsc/i0033vek8y7.html" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen="true" allowtransparency="true" name='jx_play' ></iframe>
+			<div class="url-box">
+				<div class="input-group">
+					<input type="text" id="url" class="form-control url-text" aria-label="Text input with segmented button dropdown" placeholder="请粘贴视频网址>ㅂ<ﾉ ☆" title="">
+					<div class="input-group-addon">
+						<select class="url-c url-text" title="如发现视频无法正常播放请更换线路重新解析！" id="jk">
+							<option value="https://www.1717yun.com/jx/ty.php?url=" >17云</option>
+							<option value="https://jx.wslmf.com/?url=" >凡凡</option>
+							<option value="https://jqaaa.com/jx.php?url=" >金桥</option>
+							<option value="https://jx.598110.com/index.php?url=" >通用</option>
+							<option value="https://jx.fo97.cn/?url=" >星空</option>
+							<option value="https://www.kpezp.cn/jlexi.php?url=" >小蒋极致</option>
+							<option value="https://jx.du2.cc/?url=" >二度</option>
+							<option value="https://vip.bljiex.com/?v=" >bl解析</option>
+							<option value="http://jiexi.yiqizouba.top/?url=" >一起走吧</option>
+							<option value="https://jx.52damu.com/dmjx/jiexi.php?url=" >大幕</option>
+							<option value="https://www.h8jx.com/jiexi.php?url=" >H8</option>
+							<option value="https://jx.jiexis.com/?url=" >解析S</option>
+						</select>
+					</div>
+					<div class="input-group-btn">
+						<button type="button" class="btn btn-default btn-play" title="" onclick="play()">解析播放</button>
+					</div>
+				</div>
+			</div>
+			<div style='padding-bottom:10px'></div>
+		</div>
+		<script type="text/javascript" src="https://www.eggvod.cn/js/tv-beipy.js" ></script>
+		<script src="https://www.eggvod.cn/js/windowScroll.js"></script>
+		<script>
+			var jx_url= "https://v.qq.com/x/cover/m441e3rjq9kwpsc/i0033vek8y7.html";
+			$('#url').val(jx_url);
+			$(document).ready(function() { 
+				//alert($(window).height()); //浏览器时下窗口可视区域高度
+				var iframeHeight = $(window).height();
+				var playboxheight = iframeHeight*0.75;
+				var alertBoxTop = iframeHeight*0.04;
+				//alert(alertBoxTop);
+				 $("#palybox").height(playboxheight);
+				 $("#alertBox").css('top',alertBoxTop);
+				} 
+			) 
+		</script>
+	</body>
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "https://hm.baidu.com/hm.js?a2f7245c0b3fcd993003b1d9182d0a82";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+</html>
