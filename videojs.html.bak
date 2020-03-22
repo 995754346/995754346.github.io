@@ -52,12 +52,13 @@
 				<h4 style='font-size:14px;'></h4>
 			</div>
 			<!--视频iframe区域-->
-			<iframe id="palybox" src="https://www.1717yun.com/jx/ty.php?url=https://v.qq.com/x/cover/m441e3rjq9kwpsc/i0033vek8y7.html" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen="true" allowtransparency="true" name='jx_play' ></iframe>
+			<iframe id="palybox" src="hhttp://jiexi.yiqizouba.top/?url=https://v.qq.com/x/cover/m441e3rjq9kwpsc/i0033vek8y7.html" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen="true" allowtransparency="true" name='jx_play' ></iframe>
 			<div class="url-box">
 				<div class="input-group">
 					<input type="text" id="url" class="form-control url-text" aria-label="Text input with segmented button dropdown" placeholder="请粘贴视频网址>ㅂ<ﾉ ☆" title="">
 					<div class="input-group-addon">
 						<select class="url-c url-text" title="如发现视频无法正常播放请更换线路重新解析！" id="jk">
+							<option value="http://jiexi.yiqizouba.top/?url=" >一起走吧</option>
 							<option value="https://www.1717yun.com/jx/ty.php?url=" >17云</option>
 							<option value="https://jx.wslmf.com/?url=" >凡凡</option>
 							<option value="https://jqaaa.com/jx.php?url=" >金桥</option>
@@ -66,7 +67,6 @@
 							<option value="https://www.kpezp.cn/jlexi.php?url=" >小蒋极致</option>
 							<option value="https://jx.du2.cc/?url=" >二度</option>
 							<option value="https://vip.bljiex.com/?v=" >bl解析</option>
-							<option value="http://jiexi.yiqizouba.top/?url=" >一起走吧</option>
 							<option value="https://jx.52damu.com/dmjx/jiexi.php?url=" >大幕</option>
 							<option value="https://www.h8jx.com/jiexi.php?url=" >H8</option>
 							<option value="https://jx.jiexis.com/?url=" >解析S</option>
